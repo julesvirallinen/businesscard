@@ -1,0 +1,52 @@
+.photo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+body {
+    background-color: rgba(235, 227, 243, 0.37);
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: auto;
+
+    padding-top: 100px;
+
+}
+
+.content {
+    text-align: center;
+    align-items: center;
+
+    width: 40%;
+    height: 40%;
+
+    background-color: rgba(235, 227, 243, 0.40);
+    flex-direction: column;
+    display: flex;
+    padding: 50px;
+
+    border-radius: 10%;
+    font-size: 2em;
+    line-height: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color: #2A2A2A;
+}
+
+span {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #2A2A2A;
+
+}
+
+a:hover {
+    color: #111013;
+
+}
